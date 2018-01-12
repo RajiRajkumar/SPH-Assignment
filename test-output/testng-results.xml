@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71742" started-at="2018-01-12T02:51:56Z" finished-at="2018-01-12T02:53:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71742" started-at="2018-01-12T02:51:56Z" finished-at="2018-01-12T02:53:08Z">
+      <class name="sg.com.sph.straitstimes.testclasses.AcceptanceTests">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="launchBrowser" is-config="true" duration-ms="20099" started-at="2018-01-12T10:51:56Z" finished-at="2018-01-12T10:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testHomePage()[pri:1, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="testHomePage" duration-ms="27600" started-at="2018-01-12T10:52:16Z" description="Verify Home Page" finished-at="2018-01-12T10:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="testLogin" duration-ms="3706" started-at="2018-01-12T10:52:44Z" description="Verify Login to the site" finished-at="2018-01-12T10:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testUsernamePassword()[pri:3, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="testUsernamePassword" duration-ms="16738" started-at="2018-01-12T10:52:48Z" description="Verify Login to the site with Login ID and password" finished-at="2018-01-12T10:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsernamePassword -->
+        <test-method status="PASS" signature="testLoginSuccess()[pri:4, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="testLoginSuccess" duration-ms="268" started-at="2018-01-12T10:53:04Z" description="Verify the user has been logged in" finished-at="2018-01-12T10:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="testMainArticle()[pri:5, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="testMainArticle" duration-ms="467" started-at="2018-01-12T10:53:05Z" description="Verify that the main article is launched" finished-at="2018-01-12T10:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainArticle -->
+        <test-method status="PASS" signature="testArticleImages()[pri:6, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="testArticleImages" duration-ms="345" started-at="2018-01-12T10:53:05Z" description="Verify images/videos on the main article" finished-at="2018-01-12T10:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArticleImages -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sg.com.sph.straitstimes.testclasses.AcceptanceTests@d818d1]" name="closeBrowser" is-config="true" duration-ms="2485" started-at="2018-01-12T10:53:05Z" finished-at="2018-01-12T10:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sg.com.sph.straitstimes.testclasses.AcceptanceTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
